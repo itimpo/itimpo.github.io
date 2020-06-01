@@ -34,8 +34,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     color: #fff;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+   /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
 .cover-container {
@@ -124,3 +124,12 @@ body {
         font-size: 3.5rem;
     }
 }
+
+.list-unstyled > li{
+    color: lightyellow;
+}
+
+.list-unstyled ul li {
+    list-style-type: none;
+    color: lightblue;
+} 
