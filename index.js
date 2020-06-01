@@ -9,7 +9,7 @@ $(function () {
         //e.preventDefault();
         var form = $(this);
         var url = form.find('#url').val(); //https://www.youtube.com/watch?v=rIzHUfDB28o
-        id = url.split('?v=')[1];
+        id = url.replace('https://www.youtube.com/watch?v=', '').replace('https://youtu.be/','');
         form.find('#id').val(id);
     });
 
